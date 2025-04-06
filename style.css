@@ -1,0 +1,101 @@
+*, html {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    
+}
+.navbar {
+    background-color: #0d6efd;
+    width: 100%;
+    height: 10vh;
+}
+.ul-navbar {
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+.li-navbar {
+    list-style: none;
+    display: flex;
+    margin: 35px;
+    padding: 10px;
+
+}
+.li-navbar:hover {
+    background-color: #15172a;
+    border-radius: 15px;
+}
+.a-navbar {
+    text-decoration: none;
+    color: white;
+}
+.h1-judul {
+    background-color: #15172a;
+}
+.h1-jc {
+    display: flex;
+    justify-content: center;
+}
+.p-jc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conten {
+    height: 80vh;
+    background-color: #15172a;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.h1-content {
+    background-color: #8f8608;
+    border-radius: 15px;
+    color: white;
+}
+.a-content {
+    pointer-events: non;
+    background-color: aqua;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    width: 720px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 80px;
+}
+.iframe-conten {
+    width: 391px; 
+    height: 220px; 
+    left: 0px; 
+    top: 313px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#biodata {
+    background-color: #0d6efd;
+    width: 300px;
+    height: 50px;
+    border-radius: 13px;
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+.foter {
+    height: 10vh;
+    background-color: #0d6efd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1-foter {
+    color: white;
+    font-size: medium;
+}
